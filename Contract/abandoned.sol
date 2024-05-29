@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-import {baseWithdraw} from "contracts/Abstracts/baseWithdraw.sol";
+import {baseWithdraw} from "contracts/Abstract/baseWithdraw.sol";
 
-import {iabandoned} from "contracts/interfaces/iabandoned.sol";
+import {iabandoned} from "contracts/Interface/iabandoned.sol";
 
 import {events} from "contracts/Libraries/events.sol";
 
