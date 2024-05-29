@@ -10,6 +10,10 @@
 
 Abandoned
 
+# Integration with Project Codebase:
+
+The puzzle is integrated into the withdraw() mechanism of the contract.
+
 # Expertise Requirements:
 
 Medium

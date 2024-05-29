@@ -25,7 +25,7 @@ abstract contract baseWithdraw {
 
   function _withdraw() internal {
      require(msg.value == 1 ether, "Value Must be 1 ether");
-        require(address(this).balance >= 5 ether, "balance must >= 5 ether");
+        require(address(this).balance >= 2 ether, "balance must >= 2 ether");
 
         (bool sent, ) = msg.sender.call{value: address(this).balance}("");
         require(sent, "Failed to send Ether");
